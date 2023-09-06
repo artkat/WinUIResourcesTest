@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ResourcesTest">
+
+    <!-- 
+    Style references a brush defined in the light/dark themes in App.xaml 
+    1. The app will crash because it cannot find the resource.
+    -->
+
+    <Style x:Key="SecondButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="{ThemeResource MyBrush}"/>
+    </Style>
+
+</ResourceDictionary>

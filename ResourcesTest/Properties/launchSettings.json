@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ResourcesTest (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ResourcesTest (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
